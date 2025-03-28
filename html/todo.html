@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/todo.css">
+</head>
+
+<body>
+  <div class="bgi"></div>
+  <div class="nav">
+    <div class="about">
+      关于我
+    </div>
+    <div class="language-change">
+      <span class="btn-en">En</span>
+      <span class="separator">/</span>
+      <span class="btn-zh">中</span>
+    </div>
+  </div>
+  <div class="search-box">
+    <input type="text" placeholder="搜索待办事项..." name="" id="">
+  </div>
+  <div class="header">
+    <div class="header-top">
+      <div class="fangkuai">
+        <span></span><span></span>
+      </div>
+      <div class="header-title"><img src="../img/todo.svg" alt=""></div>
+      <div class="clocks">
+        <div class="clock">
+          <div class="bar"></div>
+          <div class="motion">
+            <div class="string"></div>
+            <div class="weight"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-input">
+      <input type="text" placeholder="新增待办事项..." name="" id="">
+      <div class="submit">提交</div>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <div class="main">
+      <div class="container">
+        <div class="container-top">
+          <div class="container-top-left">
+            全部标记完成
+          </div>
+          <div class="container-top-right">
+            到达胜利之前无法回头
+          </div>
+        </div>
+        <div class="container-bottom">
+          <div class="lists">
+            <ul>
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="fast-tab">
+        <ul>
+          <li class="switch">开</li>
+          <li class="all">全部</li>
+          <li class="unfinished">进行中</li>
+          <li class="finished">已完成</li>
+          <li class="trash">回收站</li>
+          <li class="all-mark-finished">全部标为已完成</li>
+          <li class="cls-finished">清除已完成</li>
+          <li class="cls-all">清除全部</li>
+          <li class="out-data">导出数据</li>
+          <li class="in-data">导入(txt/json)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../js/todo.js"></script>
+</body>
+
+</html>
